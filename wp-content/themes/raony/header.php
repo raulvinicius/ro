@@ -46,7 +46,7 @@
         <?php //$fileN =  basename ( $_SERVER["SCRIPT_NAME"] ); ?>
         <?php $fileN2 = $_SERVER[ "REQUEST_URI" ] ?>
         <!-- ATENÇÃO! Alterar "ignite" pelo nome da pasta WordPress -->
-        <?php $fileN2 = str_replace("/ignite", '', $fileN2) ?>
+        <?php $fileN2 = str_replace("/raony", '', $fileN2) ?>
         <?php $fileN2 = str_replace("/frontend", '', $fileN2) ?>
         <?php $fileN2 = explode('/', $fileN2) ?>
         <?php $fileN2 = $fileN2[1]; ?>
