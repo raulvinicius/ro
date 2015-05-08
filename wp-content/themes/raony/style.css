@@ -18,18 +18,53 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 /*INCLUA SUAS FONTES AQUI*/
-/* 
+ 
+
+
 @font-face {
-    font-family: 'dinprolight';
-    src: url(fonts/dinpro-light-webfont.eot);
-    src: url(fonts/dinpro-light-webfont.eot?#iefix) format('embedded-opentype'),
-         url(fonts/dinpro-light-webfont.woff) format('woff'),
-         url(fonts/dinpro-light-webfont.ttf) format('truetype'),
-         url(fonts/dinpro-light-webfont.svg#ralewaylight) format('svg');
+    font-family: 'champagne';
+    src: url(fonts/champagne__limousines.eot);
+    src: url(fonts/champagne__limousines.eot?#iefix) format('embedded-opentype'),
+         url(fonts/champagne__limousines.woff) format('woff'),
+         url(fonts/champagne__limousines.ttf) format('truetype'),
+         url(fonts/champagne__limousines.svg#champagne) format('svg');
     font-weight: normal;
     font-style: normal;
 }
-*/
+
+@font-face {
+    font-family: 'champagnebold';
+    src: url(fonts/champagne__limousines_bold.eot);
+    src: url(fonts/champagne__limousines_bold.eot?#iefix) format('embedded-opentype'),
+         url(fonts/champagne__limousines_bold.woff) format('woff'),
+         url(fonts/champagne__limousines_bold.ttf) format('truetype'),
+         url(fonts/champagne__limousines_bold.svg#champagnebold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'firasans';
+    src: url(fonts/firasans-regular.eot);
+    src: url(fonts/firasans-regular.eot?#iefix) format('embedded-opentype'),
+         url(fonts/firasans-regular.woff) format('woff'),
+         url(fonts/firasans-regular.ttf) format('truetype'),
+         url(fonts/firasans-regular.svg#firasans) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'firasansmedium';
+    src: url(fonts/firasans-medium.eot);
+    src: url(fonts/firasans-medium.eot?#iefix) format('embedded-opentype'),
+         url(fonts/firasans-medium.woff) format('woff'),
+         url(fonts/firasans-medium.ttf) format('truetype'),
+         url(fonts/firasans-medium.svg#firasansmedium) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 
@@ -192,13 +227,157 @@ body
 
 
 
+#home
+{
+    height: 100%;
+}
 
 
+#home #apresentacao
+{
+    height: 100%;
+}
 
 
+#home #apresentacao #bg-logo
+{
+    background: url(img/raonyoliveira-bg-home.jpg) center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
 
-/*-------------------LINK 01-------------------*/
-/*-------------------LINK 02-------------------*/
-/*-------------------LINK 03-------------------*/
-/*-------------------LINK 04-------------------*/
+#home #apresentacao #cols
+{
+    height: 100%;
+}
 
+#home #apresentacao #bg-logo figure
+{
+    height: 60%;
+    left: 0;
+    right: 0;
+    top: 15%;  
+    position: absolute; 
+}
+
+#home #apresentacao #bg-logo img
+{
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#home #servicos
+{
+    text-align: center;
+}
+
+#home #servicos h2
+{
+    font-size: 56px;
+    font-family: "champagne", Arial, sans-serif;
+    color: #31a98e;
+    margin-top: 145px;
+}
+
+#home #servicos h2 span
+{
+    display: block;
+    font-size: 90px;
+}
+
+#home #servicos #intro p
+{
+    /*width: 25%;*/
+    font-size: 20px;
+    color: #103637;
+    font-family: "firasans", Verdana, sans-serif;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+#home #servicos h3
+{
+    font-size: 34px;
+    color: white;
+    font-family: "firasansmedium", Arial, sans-serif;
+    font-style: italic;
+    padding-top: 39px;
+    padding-bottom: 32px;
+    background: url(img/raonyoliveira-bg-preto-07.png);
+    margin: 0 -15px;
+}
+
+#home #servicos h3 i
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#home #servicos #martelinho p,
+#home #servicos #polimento p,
+#home #servicos #estetica p
+{
+    height: 220px;
+    font-size: 72px;
+    color: white;
+    font-family: "champagne", Arial, sans-serif;
+    line-height: 73px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+#home #servicos .linha-divisao
+{
+    height: 1px;
+    background: url(img/raonyoliveira-linha-divisao.png) center no-repeat;
+}
+
+#home #servicos .veja-mais
+{
+    font-size: 20px;
+    color: #e8c31d;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "champagnebold", Arial, sans-serif;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-bottom: 265px;
+    border-radius: 25px;
+}
+
+#home #servicos .veja-mais:hover
+{
+    text-decoration: none;
+}
+
+#home #servicos #martelinho
+{
+    background: url(img/raonyoliveira-bg-martelinho.jpg);
+}
+
+#home #servicos #polimento
+{
+    background: url(img/raonyoliveira-bg-polimento.jpg);
+}
+
+#home #servicos #polimento .veja-mais
+{
+    color: #0096c5;
+}
+
+#home #servicos #estetica
+{
+    background: url(img/raonyoliveira-bg-estetica.jpg);
+}
+
+#home #servicos #estetica .veja-mais
+{
+    color: #cd171e;
+}
