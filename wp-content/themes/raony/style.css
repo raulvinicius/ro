@@ -298,6 +298,7 @@ body
     display: inline-block;
     margin-top: 25px;
     margin-bottom: 100px;
+    padding: 0 10px;
 }
 
 #home #servicos h3
@@ -359,12 +360,14 @@ body
 
 #home #servicos #martelinho
 {
-    background: url(img/raonyoliveira-bg-martelinho.jpg);
+    background: url(img/raonyoliveira-bg-martelinho.jpg) no-repeat;
+    background-color: #e8c31d;
 }
 
 #home #servicos #polimento
 {
-    background: url(img/raonyoliveira-bg-polimento.jpg);
+    background: url(img/raonyoliveira-bg-polimento.jpg) no-repeat;
+    background-color: #0096c5;
 }
 
 #home #servicos #polimento .veja-mais
@@ -374,10 +377,93 @@ body
 
 #home #servicos #estetica
 {
-    background: url(img/raonyoliveira-bg-estetica.jpg);
+    background: url(img/raonyoliveira-bg-estetica.jpg) no-repeat;
+    background-color: #cd171e;
 }
 
 #home #servicos #estetica .veja-mais
 {
     color: #cd171e;
+}
+
+#home #depoimentos
+{
+    text-align: center;
+    background: url(img/raonyoliveira-bg-depoimentos.jpg) no-repeat;
+    margin-top: -57px;
+
+}
+
+#home #depoimentos h2
+{
+    color: #333333;
+    font-size: 68px;
+    font-family: "champagne", Arial, sans-serif;
+}
+
+#home #depoimentos h2 i
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#home #depoimentos #seta-left
+{
+    text-align: right;
+}
+
+#home #depoimentos #seta-right
+{
+    text-align: left;
+}
+
+#home #depoimentos button
+{
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#home #depoimentos button img
+{
+    width: 100%;
+}
+
+#home #depoimentos blockquote
+{
+    color: #333333;
+    font-size: 26px;
+    font-family: "champagne", Arial, sans-serif;
+    border: none;
+    padding-bottom: 100px;
+}
+
+#home #depoimentos blockquote p
+{
+    background: url(img/raonyoliveira-linha-seta-baixo.png) no-repeat bottom center;
+    padding-bottom: 45px;
+}
+
+
+#home #depoimentos blockquote footer
+{
+    color: #333333;
+    font-size: 26px;
+    font-style: italic;
+    font-family: "champagnebold", Arial, sans-serif;
+}
+
+#home #depoimentos blockquote footer span
+{
+    font-size: 22px;
+    font-family: "champagne", Arial, sans-serif;
+    display: block;
+    margin-top: -6px;
+}
+
+#home #depoimentos blockquote footer:before
+{
+    content: "";
 }
