@@ -2,7 +2,7 @@
 
 
 
-	<section id="home" class="page">
+	<section id="martelinho" class="page">
 
 
 		<section id="apresentacao">
@@ -10,74 +10,41 @@
 
 				<div class="row">
 				<div id="bg-logo">
-					<div id="cols" class="col-sm-12">
-						<figure><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-logo.png"></figure>
-					</div>
+
 				</div>
 				</div>
 
 			</div>
+
 		</section>
 
-		<section id="servicos">
+		<section id="beneficios">
 			<div class="container-fluid">
 
 				<div id="intro" class="row">
 
-					<div class="col-sm-12">
-						<h2>Lembra, aquela sensação de carro novo?
-						<span>Nós também adoramos!</span></h2>
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2>Restauração artesanal, lataria original.</span></h2>
 					</div>
 
-					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4">
-						<p>E pensando nisso, oferecemos os melhores serviços para trazer de volta, pra você, aquela sensação, ou se for o caso, não deixá-la ir embora.</p>
+					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8">
+						<p>A técnica do Martelinho de Ouro permite que você mantenha a lataria original do seu carro, pois não há substituição da peça ou preenchimentos com massa, se trata basicamente de dedicação, criatividade e perfeccionismo.</p>
 					</div>
 
 				</div>
 
-				<div class="row">
+				<div id="lista" class="row">
 
-					<div id="martelinho" class="col-sm-4">
-						<h3>
-							<i><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-martelinho.png"></i>
-							Martelinho de Ouro
-						</h3>
+					<h3>Porque nos escolher:</h3>
 
-						<p>Restauração artesanal, lataria original.</p>
+					<ul>
+						<li>
+							<figure>
+								<img src="">
+							</figure>
+						</li>
+					</ul>
 
-						<div class="linha-divisao"></div>
-
-						<a class="veja-mais" href="#"><span>Conheça melhor</span></a>
-
-					</div>
-
-					<div id="polimento" class="col-sm-4">
-						<h3>
-							<i><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-polimento.png"></i>
-							Polimento
-						</h3>
-
-						<p>Pintura tão viva, que quase respira.</p>
-
-						<div class="linha-divisao"></div>
-
-						<a class="veja-mais" href="#"><span>Conheça melhor</span></a>
-
-					</div>
-
-					<div id="estetica" class="col-sm-4">
-						<h3>
-							<i><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-estetica.png"></i>
-							Estética automotiva
-						</h3>
-
-						<p>Está tudo nos detalhes.</p>
-
-						<div class="linha-divisao"></div>
-
-						<a class="veja-mais" href="#"><span>Conheça melhor</span></a>
-
-					</div>
 				</div>
 
 			</div>

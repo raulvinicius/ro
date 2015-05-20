@@ -36,7 +36,7 @@
 
     </head>
 
-    <body>
+    <body class="verde">
         <nav class="menu-bottom navbar navbar-fixed-top" role="navigation">
           <div class="container-fluid">
             <div class="row">

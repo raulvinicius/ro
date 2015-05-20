@@ -15,6 +15,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 /*
+verde hover
+#278772
+
+verde
+#31a98e;
+
 amarelo hover
 #ba9c17;
 
@@ -160,6 +166,13 @@ vermelho
 	-ms-user-select: none;
 	user-select: none;
 }
+
+
+section.page
+{
+    height: 100%;
+}
+
 
 /*----------------------CLASSES----------------------*/
 
@@ -379,35 +392,35 @@ nav.navbar .dropdown-menu > li
     display: inline-block;
 }
 
-nav.navbar .nav.verde li .dropdown-menu a:hover,
-nav.navbar .nav.verde li .dropdown-menu a:focus
+.verde nav.navbar .nav li .dropdown-menu a:hover,
+.verde nav.navbar .nav li .dropdown-menu a:focus
 {
     background: #278772;
 }
 
-nav.navbar .verde .dropdown-menu
+.verde nav.navbar  .dropdown-menu
 {
     background-color: #31a98e;
 }
 
-nav.navbar .nav.amarelo li .dropdown-menu a:hover,
-nav.navbar .nav.amarelo li .dropdown-menu a:focus
+.amarelo nav.navbar .nav li .dropdown-menu a:hover,
+.amarelo nav.navbar .nav li .dropdown-menu a:focus
 {
     background: #ba9c17;
 }
 
-nav.navbar .amarelo .dropdown-menu
+.amarelo nav.navbar  .dropdown-menu
 {
     background-color: #e8c31d;
 }
 
-nav.navbar .nav.azul li .dropdown-menu a:hover,
-nav.navbar .nav.azul li .dropdown-menu a:focus
+.azul nav.navbar .nav li .dropdown-menu a:hover,
+.azul nav.navbar .nav li .dropdown-menu a:focus
 {
     background: #00799e;
 }
 
-nav.navbar .azul .dropdown-menu
+.azul nav.navbar  .dropdown-menu
 {
     background-color: #0097c6;
 }
@@ -439,37 +452,37 @@ nav.navbar a
     margin-top: 10px;
 }
 
-nav.navbar .nav.verde a
+.verde nav.navbar .nav a
 {
     color: #3fa98e;
 }
 
-nav.navbar .nav.verde a:hover,
-nav.navbar .nav.verde a:focus
+.verde nav.navbar .nav a:hover,
+.verde nav.navbar .nav a:focus
 {
     background-color: #3fa98e;
     color: white;
 }
 
-nav.navbar .nav.amarelo a
+.amarelo nav.navbar .nav a
 {
     color: #e8c31d;
 }
 
-nav.navbar .nav.amarelo a:hover,
-nav.navbar .nav.amarelo a:focus
+.amarelo nav.navbar .nav a:hover,
+.amarelo nav.navbar .nav a:focus
 {
     background-color: #e8c31d;
     color: white;
 }
 
-nav.navbar .nav.azul a
+.azul nav.navbar .nav a
 {
     color: #0097c6;
 }
 
-nav.navbar .nav.azul a:hover,
-nav.navbar .nav.azul a:focus
+.azul nav.navbar .nav a:hover,
+.azul nav.navbar .nav a:focus
 {
     background-color: #0097c6;
     color: white;
@@ -571,10 +584,150 @@ nav.menu-bottom .open .dropdown-menu
 
 
 
-#home
+
+
+
+/*----------------------CONTATO----------------------*/
+
+#contato
 {
-    height: 100%;
+    background: url(img/raonyoliveira-bg-contato.jpg) center top;
 }
+
+#contato h2
+{
+    color: #333333;
+    font-size: 68px;
+    text-align: center;
+    font-family: "champagne", Arial, sans-serif;
+    margin: 55px 0 100px 0;
+}
+
+#contato form
+{
+    color: white;
+    background: #333333;
+    font-size: 26px;
+    font-family: "champagne", Arial, sans-serif;
+}
+
+#contato form #group-nome
+{
+    margin-bottom: 0;
+}
+
+#contato form label
+{
+    font-weight: normal !important;
+    margin-top: 25px;
+}
+
+#contato form #group-nome label
+{
+    margin-top: 43px;
+}
+
+#contato form label span
+{
+    color: #929292;
+}
+
+#contato form input,
+#contato form select,
+#contato form textarea,
+#contato form button
+{
+    width: 100%;
+    color: #333333;
+    padding: 5px 2px;
+}
+
+#contato form input:focus,
+#contato form select:focus,
+#contato form textarea:focus,
+#contato form button:focus
+{
+    outline: none;
+}
+
+#contato form select
+{
+    padding: 9px 2px;
+}
+
+#contato form #separador
+{
+    width: 100%;
+    height: 1px;
+    background: url(img/raonyoliveira-separador-form.png);
+    margin-top: 22px;
+}
+
+#contato form #group-mensagem
+{
+    text-align: center;
+}
+
+#contato form textarea
+{
+    height: 220px;
+    resize: none;
+}
+
+#contato form button
+{
+    color: white;
+    font-size: 30px;
+    font-family: "champagnebold", Arial, sans-serif;
+    text-transform: uppercase;
+    background: #e8c31d;
+    padding-top: 2px;
+    border: none;
+    margin: 40px 0 50px 0;
+}
+
+.verde #contato form button
+{
+    background: #31a98e;
+}
+
+.amarelo #contato form button
+{
+    background: #e8c31d;
+}
+
+.azul #contato form button
+{
+    background: #0097c6;
+}
+
+.vermelho #contato form button
+{
+    background: #cd181f;
+}
+
+#contato #humano
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-indent: -9999px;
+    background: url(img/raonyoliveira-by-humano.png);
+    margin-top: -65px;
+    float: right;
+}
+/*----------------------CONTATO----------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------HOME----------------------*/
 
 
 #home #apresentacao
@@ -811,111 +964,59 @@ nav.menu-bottom .open .dropdown-menu
 {
     content: "";
 }
+/*----------------------HOME----------------------*/
 
-#home #contato
+
+
+
+
+
+
+
+/*----------------------MARTELINHO----------------------*/
+
+#martelinho #apresentacao
 {
-    background: url(img/raonyoliveira-bg-contato.jpg) center top;
+    height: 100%;
 }
 
-#home #contato h2
+#martelinho #apresentacao #bg-logo
 {
-    color: #333333;
-    font-size: 68px;
-    text-align: center;
-    font-family: "champagne", Arial, sans-serif;
-    margin: 55px 0 100px 0;
+    background: url('img/raonyoliveira-bg-header-martelinho.jpg') center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
-#home #contato form
+#martelinho #beneficios
 {
-    color: white;
-    background: #333333;
-    font-size: 26px;
-    font-family: "champagne", Arial, sans-serif;
+    height: 100%;
+    background: url('img/raonyoliveira-bg-header-martelinho.jpg');
 }
 
-#home #contato form #group-nome
+#martelinho #beneficios #intro
 {
-    margin-bottom: 0;
-}
-
-#home #contato form label
-{
-    font-weight: normal !important;
-    margin-top: 25px;
-}
-
-#home #contato form #group-nome label
-{
-    margin-top: 43px;
-}
-
-#home #contato form label span
-{
-    color: #929292;
-}
-
-#home #contato form input,
-#home #contato form select,
-#home #contato form textarea,
-#home #contato form button
-{
-    width: 100%;
-    color: #333333;
-    padding: 5px 2px;
-}
-
-#home #contato form input:focus,
-#home #contato form select:focus,
-#home #contato form textarea:focus,
-#home #contato form button:focus
-{
-    outline: none;
-}
-
-#home #contato form select
-{
-    padding: 9px 2px;
-}
-
-#home #contato form #separador
-{
-    width: 100%;
-    height: 1px;
-    background: url(img/raonyoliveira-separador-form.png);
-    margin-top: 22px;
-}
-
-#home #contato form #group-mensagem
-{
-    text-align: center;
-}
-
-#home #contato form textarea
-{
-    height: 220px;
-    resize: none;
-}
-
-#home #contato form button
-{
-    color: white;
-    font-size: 30px;
-    font-family: "champagnebold", Arial, sans-serif;
-    text-transform: uppercase;
     background: #e8c31d;
-    padding-top: 2px;
-    border: none;
-    margin: 40px 0 50px 0;
+    color: white;
+    text-align: center;
 }
 
-#home #contato #humano
+#martelinho #beneficios #intro h2
 {
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-indent: -9999px;
-    background: url(img/raonyoliveira-by-humano.png);
-    margin-top: -65px;
-    float: right;
+    font-family: 'champagne', Arial, sans-serif;
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 30px;
+    margin-top: 90px;
 }
+
+#martelinho #beneficios #intro p
+{
+    font-family: 'firasans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+/*----------------------MARTELINHO----------------------*/
