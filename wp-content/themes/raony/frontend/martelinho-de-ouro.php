@@ -40,9 +40,54 @@
 					<ul>
 						<li>
 							<figure>
-								<img src="">
+								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-inloco.png">
+								<figcaption>
+									<h2>Atendimento In loco</h2>
+									<p>Vamos até você, prezamos a comodidade dos nossos clientes.</p>
+								</figcaption>
 							</figure>
 						</li>
+							
+						<li>
+							<figure>
+								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-7x24.png">
+								<figcaption>
+									<h2>De domingo a domingo</h2>
+									<p>Sete dias por semana, escolha o melhor dia pra você.</p>
+								</figcaption>
+							</figure>
+						</li>
+
+						<li>
+							<figure>
+								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-sustentabilidade.png">
+								<figcaption>
+									<h2>Sustentabilidade</h2>
+									<p>Nossa técnica não utiliza água e não gera resíduos, ótimo para o meio ambiente.</p>
+								</figcaption>
+							</figure>
+						</li>
+
+						<li>
+							<figure>
+								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-original.png">
+								<figcaption>
+									<h2>Seu carro original</h2>
+									<p>Trabalhamos artesanalmente na própria lataria do veículo. É uma revitalização.</p>
+								</figcaption>
+							</figure>
+						</li>
+
+						<li>
+							<figure>
+								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-rapido.png">
+								<figcaption>
+									<h2>Mais rápido e barato</h2>
+									<p>A duração e o custo do serviço são muito menores se coparados à lanternagem.</p>
+								</figcaption>
+							</figure>
+						</li>
+
 					</ul>
 
 				</div>
