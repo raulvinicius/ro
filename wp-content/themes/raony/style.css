@@ -267,7 +267,7 @@ body
 
 body
 {
-	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
+    font-family: "champagne", Arial, sans-serif;
 }
 
 
@@ -1045,5 +1045,10 @@ nav.menu-bottom .open .dropdown-menu
 
 #galeria
 {
-    background: url(img/);
+    background: url(img/raonyoliveira-bg-beneficios.jpg) no-repeat;
+}
+
+#galeria #apresentacao p
+{
+    
 }
