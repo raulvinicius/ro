@@ -467,3 +467,111 @@ body
 {
     content: "";
 }
+
+#home #contato
+{
+    background: url(img/raonyoliveira-bg-contato.jpg) center top;
+}
+
+#home #contato h2
+{
+    color: #333333;
+    font-size: 68px;
+    text-align: center;
+    font-family: "champagne", Arial, sans-serif;
+    margin: 55px 0 100px 0;
+}
+
+#home #contato form
+{
+    color: white;
+    background: #333333;
+    font-size: 26px;
+    font-family: "champagne", Arial, sans-serif;
+}
+
+#home #contato form #group-nome
+{
+    margin-bottom: 0;
+}
+
+#home #contato form label
+{
+    font-weight: normal !important;
+    margin-top: 25px;
+}
+
+#home #contato form #group-nome label
+{
+    margin-top: 43px;
+}
+
+#home #contato form label span
+{
+    color: #929292;
+}
+
+#home #contato form input,
+#home #contato form select,
+#home #contato form textarea,
+#home #contato form button
+{
+    width: 100%;
+    color: #333333;
+    padding: 5px 2px;
+}
+
+#home #contato form input:focus,
+#home #contato form select:focus,
+#home #contato form textarea:focus,
+#home #contato form button:focus
+{
+    outline: none;
+}
+
+#home #contato form select
+{
+    padding: 9px 2px;
+}
+
+#home #contato form #separador
+{
+    width: 100%;
+    height: 1px;
+    background: url(img/raonyoliveira-separador-form.png);
+    margin-top: 22px;
+}
+
+#home #contato form #group-mensagem
+{
+    text-align: center;
+}
+
+#home #contato form textarea
+{
+    height: 220px;
+    resize: none;
+}
+
+#home #contato form button
+{
+    color: white;
+    font-size: 30px;
+    font-family: "champagnebold", Arial, sans-serif;
+    text-transform: uppercase;
+    background: #e8c31d;
+    padding-top: 2px;
+    border: none;
+    margin: 40px 0 50px 0;
+}
+
+#home #contato #humano
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-indent: -9999px;
+    background: url(img/raonyoliveira-by-humano.png);
+    margin-top: -65px;
+    float: right;
+}

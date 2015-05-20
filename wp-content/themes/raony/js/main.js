@@ -18,7 +18,7 @@ $(document).ready(function() {
 	$('.segredo').remove();
 		
 
-	urlToOpenForm();
+	// urlToOpenForm();
 
 	$('.navbar a.contato').bind( 'click', function(e){
 		getBeforeForm();
