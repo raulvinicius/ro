@@ -62,11 +62,11 @@
 
                             <ul class="dropdown-menu ani-02-in-out" role="menu">
                                 <li>
-                                    <a class="martelinho ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/galeria">Martelinho de Ouro</a>
+                                    <a class="martelinho ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/martelinho-de-ouro">Martelinho de Ouro</a>
                                 </li><li>
-                                    <a class="polimento ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/galeria">Polimento</a>
+                                    <a class="polimento ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/polimento">Polimento</a>
                                 </li><li>
-                                    <a class="estetica ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/galeria">Estética Automotiva</a>
+                                    <a class="estetica ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/estetica-automotiva">Estética Automotiva</a>
                                 </li>
                                 
                             </ul>
