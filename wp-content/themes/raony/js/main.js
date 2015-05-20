@@ -5,32 +5,10 @@ $(document).ready(function() {
 	{
 		setTimeout(showInAnimation,400);
 
-		console.log( $( window ).scrollTop() + 96 )
-		console.log( $( window ).height() );
-		if( $( window ).scrollTop() + 96 > $( window ).height() )
-		{
-			$( 'nav.navbar' ).removeClass('menu-bottom').addClass('menu-top');
-			$( 'nav.navbar.menu-top').find('.col-md-8')
-				.removeClass('col-md-8')
-				.addClass('col-md-9');
-
-			$( 'nav.navbar.menu-top').find('.col-md-2')
-				.removeClass('col-md-2')
-				.addClass('col-md-3');
-		}
-		else
-		{
-			$( 'nav.navbar' ).addClass('menu-bottom').removeClass('menu-top');
-			$( 'nav.navbar.menu-bottom').find('.col-md-9')
-				.removeClass('col-md-9')
-				.addClass('col-md-8');
-
-			$( 'nav.navbar.menu-bottom').find('.col-md-3')
-				.removeClass('col-md-3')
-				.addClass('col-md-2');
-		}
-
+		posicionaMenu()
 	});
+
+	$( window ).scroll();
 
 	showInAnimation();
 
@@ -46,7 +24,7 @@ $(document).ready(function() {
 		
 
 
-	$( '#telefone' ).mask('(00) 0000 0000', {placeholder: "(__) ____ ____"});
+	$( '#telefone' ).mask('00 0000 0000', {placeholder: "__ ____ ____"});
 
 
 
@@ -109,23 +87,68 @@ $(document).ready(function() {
 	})
 
 
+	urlToFunction();
 });
 
 
-function urlToFunction ()
+function posicionaMenu()
 {
-	if( window.location.pathname.indexOf('fn1') >= 0 )
+	if( $( window ).scrollTop() + 96 > $( window ).height() || $( '#home' ).length == 0 )
 	{
-		//do fn1
-	}
-	else if( window.location.pathname.indexOf('fn2') >= 0 )
-	{
-		//do fn2
+		$( 'nav.navbar' ).removeClass('menu-bottom').addClass('menu-top');
+		$( 'nav.navbar.menu-top').find('.col-md-8')
+			.removeClass('col-md-8')
+			.addClass('col-md-9');
+
+		$( 'nav.navbar.menu-top').find('.col-md-2')
+			.removeClass('col-md-2')
+			.addClass('col-md-3');
 	}
 	else
 	{
-		//do fn3
+		$( 'nav.navbar' ).addClass('menu-bottom').removeClass('menu-top');
+		$( 'nav.navbar.menu-bottom').find('.col-md-9')
+			.removeClass('col-md-9')
+			.addClass('col-md-8');
+
+		$( 'nav.navbar.menu-bottom').find('.col-md-3')
+			.removeClass('col-md-3')
+			.addClass('col-md-2');
 	}
+
+
+}
+
+function urlToFunction ()
+{
+	if( window.location.pathname.indexOf('martelinho-de-ouro') >= 0 )
+	{
+
+		$( 'body' ).removeClass('verde')
+			.removeClass('azul')
+			.removeClass('vermelho')
+			.addClass('amarelo');
+
+	}
+	else if( window.location.pathname.indexOf('polimento') >= 0 )
+	{
+
+		$( 'body' ).removeClass('verde')
+			.removeClass('amarelo')
+			.removeClass('vermelho')
+			.addClass('azul');
+			
+	}
+	else if( window.location.pathname.indexOf('estetica-automotiva') >= 0 )
+	{
+
+		$( 'body' ).removeClass('verde')
+			.removeClass('amarelo')
+			.removeClass('azul')
+			.addClass('vermelho');
+			
+	}
+
 }
 
 var beforeForm = '';

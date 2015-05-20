@@ -174,6 +174,170 @@ section.page
 }
 
 
+
+.show-cor-mestre
+{
+    display: none;
+}
+
+.verde .verde.show-cor-mestre,
+.amarelo .amarelo.show-cor-mestre,
+.azul .azul.show-cor-mestre,
+.vermelho .vermelho.show-cor-mestre
+{
+    display: inline;
+}
+
+
+.verde h2.cor-mestre,
+.verde h3.cor-mestre,
+.verde h4.cor-mestre,
+.verde h5.cor-mestre,
+.verde p.cor-mestre,
+.verde a.cor-mestre
+{
+    color: #31a98e;
+}
+
+.verde a.cor-mestre:hover,
+.verde a.cor-mestre:focus
+{
+    color: #278772;
+}
+
+.verde div.cor-mestre,
+.verde button.cor-mestre
+{
+    background: #31a98e;
+}
+
+.verde button.cor-mestre:hover,
+.verde button.cor-mestre:focus
+{
+    color: #278772;
+}
+
+.verde nav.navbar .navbar-brand h1
+{
+    background: url('img/raonyoliveira-logo-cd.png') no-repeat center;
+}
+
+
+
+
+
+
+.amarelo h2.cor-mestre,
+.amarelo h3.cor-mestre,
+.amarelo h4.cor-mestre,
+.amarelo h5.cor-mestre,
+.amarelo p.cor-mestre,
+.amarelo a.cor-mestre
+{
+    color: #e8c31d;
+}
+
+.amarelo a.cor-mestre:hover,
+.amarelo a.cor-mestre:focus
+{
+    color: #ba9c17;
+}
+
+.amarelo div.cor-mestre,
+.amarelo button.cor-mestre
+{
+    background: #e8c31d;
+}
+
+.amarelo button.cor-mestre:hover,
+.amarelo button.cor-mestre:focus
+{
+    color: #ba9c17;
+}
+
+.amarelo nav.navbar .navbar-brand h1
+{
+    background: url('img/raonyoliveira-logo-martelinho.png') no-repeat center;
+}
+
+
+
+
+
+
+.azul h2.cor-mestre,
+.azul h3.cor-mestre,
+.azul h4.cor-mestre,
+.azul h5.cor-mestre,
+.azul p.cor-mestre,
+.azul a.cor-mestre
+{
+    color: #0097c6;
+}
+
+.azul a.cor-mestre:hover,
+.azul a.cor-mestre:focus
+{
+    color: #00799e;
+}
+
+.azul div.cor-mestre,
+.azul button.cor-mestre
+{
+    background: #0097c6;
+}
+
+.azul button.cor-mestre:hover,
+.azul button.cor-mestre:focus
+{
+    color: #00799e;
+}
+
+.azul nav.navbar .navbar-brand h1
+{
+    background: url('img/raonyoliveira-logo-polimento.png') no-repeat center;
+}
+
+
+
+
+
+
+.vermelho h2.cor-mestre,
+.vermelho h3.cor-mestre,
+.vermelho h4.cor-mestre,
+.vermelho h5.cor-mestre,
+.vermelho p.cor-mestre,
+.vermelho a.cor-mestre
+{
+    color: #cd181f;
+}
+
+.vermelho a.cor-mestre:hover,
+.vermelho a.cor-mestre:focus
+{
+    color: #a41319;
+}
+
+.vermelho div.cor-mestre,
+.vermelho button.cor-mestre
+{
+    background: #cd181f;
+}
+
+.vermelho button.cor-mestre:hover,
+.vermelho button.cor-mestre:focus
+{
+    background: #a41319;
+}
+
+.vermelho nav.navbar .navbar-brand h1
+{
+    background: url('img/raonyoliveira-logo-estetica.png') no-repeat center;
+}
+
+
+
 /*----------------------CLASSES----------------------*/
 
 
@@ -589,9 +753,24 @@ nav.menu-bottom .open .dropdown-menu
 
 /*----------------------CONTATO----------------------*/
 
-#contato
+.verde #contato
 {
     background: url(img/raonyoliveira-bg-contato.jpg) center top;
+}
+
+.amarelo #contato
+{
+    background: url(img/raonyoliveira-bg-contato-martelinho.jpg) center top;
+}
+
+.azul #contato
+{
+    background: url(img/raonyoliveira-bg-contato-polimento.jpg) center top;
+}
+
+.vermelho #contato
+{
+    background: url(img/raonyoliveira-bg-contato-estetica.jpg) center top;
 }
 
 #contato h2
@@ -639,7 +818,8 @@ nav.menu-bottom .open .dropdown-menu
 {
     width: 100%;
     color: #333333;
-    padding: 5px 2px;
+    padding: 5px 15px;
+    border: 0;
 }
 
 #contato form input:focus,
@@ -717,6 +897,176 @@ nav.menu-bottom .open .dropdown-menu
     float: right;
 }
 /*----------------------CONTATO----------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------DEPOIMENTOS----------------------*/
+
+#depoimentos
+{
+    text-align: center;
+    background: url(img/raonyoliveira-bg-depoimentos.jpg) no-repeat white;
+    margin-top: -57px;
+
+}
+
+#depoimentos h2
+{
+    margin-top: -40px;
+    color: #333333;
+    font-size: 68px;
+    font-family: "champagne", Arial, sans-serif;
+}
+
+#depoimentos h2 i
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#depoimentos #seta-left
+{
+    text-align: right;
+}
+
+#depoimentos #seta-right
+{
+    text-align: left;
+}
+
+#depoimentos button
+{
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#depoimentos button img
+{
+    width: 100%;
+}
+
+#depoimentos blockquote
+{
+    color: #333333;
+    font-size: 26px;
+    font-family: "champagne", Arial, sans-serif;
+    border: none;
+    padding-bottom: 100px;
+}
+
+#depoimentos blockquote p
+{
+    background: url(img/raonyoliveira-linha-seta-baixo.png) no-repeat bottom center;
+    padding-bottom: 45px;
+}
+
+
+#depoimentos blockquote footer
+{
+    color: #333333;
+    font-size: 26px;
+    font-style: italic;
+    font-family: "champagnebold", Arial, sans-serif;
+}
+
+#depoimentos blockquote footer span
+{
+    font-size: 22px;
+    font-family: "champagne", Arial, sans-serif;
+    display: block;
+    margin-top: -6px;
+}
+
+#depoimentos blockquote footer:before
+{
+    content: "";
+}
+
+
+/*----------------------DEPOIMENTOS----------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------MINI-GALERIA----------------------*/
+
+#mini-galeria
+{
+    background: url(img/raonyoliveira-bg-mini-galeria.jpg) top left #091f1f;
+    padding-bottom: 60px;
+}
+
+#mini-galeria h2
+{
+    font-family: 'champagne', Arial, sans-serif;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+#mini-galeria p
+{
+    font-family: 'firasans', Verdana, sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#mini-galeria figure
+{
+    padding-bottom: 200px;
+}
+
+#mini-galeria figure #antes,
+#mini-galeria figure #depois
+{
+    overflow: hidden;
+}
+
+#mini-galeria figure #antes span,
+#mini-galeria figure #depois span
+{
+    height: 54px;
+    text-transform: uppercase;
+    font-family: 'champagnebold', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    background: #000000;
+    display: block;
+    color: white;
+    padding-top: 10px;
+}
+
+#mini-galeria figure #antes span
+{
+    background: url(img/raonyoliveira-bg-titulo-mini-galeria.jpg) top left no-repeat #000;
+}
+
+#mini-galeria figure #depois img
+{
+    border-left: 1px solid white;
+}
+
+/*----------------------MINI-GALERIA----------------------*/
 
 
 
@@ -883,87 +1233,6 @@ nav.menu-bottom .open .dropdown-menu
     color: #cd171e;
 }
 
-#home #depoimentos
-{
-    text-align: center;
-    background: url(img/raonyoliveira-bg-depoimentos.jpg) no-repeat;
-    margin-top: -57px;
-
-}
-
-#home #depoimentos h2
-{
-    color: #333333;
-    font-size: 68px;
-    font-family: "champagne", Arial, sans-serif;
-}
-
-#home #depoimentos h2 i
-{
-    display: block;
-    margin-bottom: 20px;
-}
-
-#home #depoimentos #seta-left
-{
-    text-align: right;
-}
-
-#home #depoimentos #seta-right
-{
-    text-align: left;
-}
-
-#home #depoimentos button
-{
-    border: none;
-    background: none;
-    outline: none;
-    margin-top: 10px;
-    padding: 0;
-}
-
-#home #depoimentos button img
-{
-    width: 100%;
-}
-
-#home #depoimentos blockquote
-{
-    color: #333333;
-    font-size: 26px;
-    font-family: "champagne", Arial, sans-serif;
-    border: none;
-    padding-bottom: 100px;
-}
-
-#home #depoimentos blockquote p
-{
-    background: url(img/raonyoliveira-linha-seta-baixo.png) no-repeat bottom center;
-    padding-bottom: 45px;
-}
-
-
-#home #depoimentos blockquote footer
-{
-    color: #333333;
-    font-size: 26px;
-    font-style: italic;
-    font-family: "champagnebold", Arial, sans-serif;
-}
-
-#home #depoimentos blockquote footer span
-{
-    font-size: 22px;
-    font-family: "champagne", Arial, sans-serif;
-    display: block;
-    margin-top: -6px;
-}
-
-#home #depoimentos blockquote footer:before
-{
-    content: "";
-}
 /*----------------------HOME----------------------*/
 
 
@@ -992,13 +1261,11 @@ nav.menu-bottom .open .dropdown-menu
 
 #martelinho #beneficios
 {
-    height: 100%;
     background: url('img/raonyoliveira-bg-header-martelinho.jpg');
 }
 
 #martelinho #beneficios #intro
 {
-    background: #e8c31d;
     color: white;
     text-align: center;
 }
@@ -1027,9 +1294,36 @@ nav.menu-bottom .open .dropdown-menu
 
 #martelinho #beneficios #lista h3
 {
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-family: 'champagne', Arial, sans-serif;
     font-size: 70px;
-    color: #e8c31d;
+}
+
+#martelinho #beneficios #lista ul
+{
+    padding: 0;
+    padding-bottom: 160px;
+}
+
+#martelinho #beneficios #lista ul li
+{
+    display: inline-block;
+    width: 400px;
+    margin: 40px;
+}
+
+#martelinho #beneficios #lista ul li h2
+{
+    font-family: 'champagnebold', Arial, sans-serif;
+    font-size: 42px;
+}
+
+#martelinho #beneficios #lista ul li p
+{
+    font-family: 'firasans', Arial, sans-serif;
+    font-size: 20px;
+    color: #666;
 }
 
 /*----------------------MARTELINHO----------------------*/
