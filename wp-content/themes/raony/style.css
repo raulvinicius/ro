@@ -1019,4 +1019,17 @@ nav.menu-bottom .open .dropdown-menu
     margin-bottom: 90px;
 }
 
+#martelinho #beneficios #lista
+{
+    background: url(img/raonyoliveira-bg-beneficios.jpg) top left no-repeat white;
+    text-align: center;
+}
+
+#martelinho #beneficios #lista h3
+{
+    font-family: 'champagne', Arial, sans-serif;
+    font-size: 70px;
+    color: #e8c31d;
+}
+
 /*----------------------MARTELINHO----------------------*/
