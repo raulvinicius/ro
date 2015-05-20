@@ -14,7 +14,25 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 
+/*
+amarelo hover
+#ba9c17;
 
+amarelo
+#e8c31d;
+
+azul hover
+#00799e;
+
+azul
+#0097c6;
+
+vermelho hover
+#a41319;
+
+vermelho
+#cd181f;
+*/
 
 
 /*INCLUA SUAS FONTES AQUI*/
@@ -283,6 +301,7 @@ body
 
 
 
+
 /*----------------------MENU----------------------*/
 
 nav.navbar .navbar-brand
@@ -355,6 +374,11 @@ nav.navbar .nav li .dropdown-menu a
     margin: 0;
 }
 
+nav.navbar .dropdown-menu > li
+{
+    display: inline-block;
+}
+
 nav.navbar .nav.verde li .dropdown-menu a:hover,
 nav.navbar .nav.verde li .dropdown-menu a:focus
 {
@@ -366,9 +390,37 @@ nav.navbar .verde .dropdown-menu
     background-color: #31a98e;
 }
 
-nav.navbar .verde .dropdown-menu > li
+nav.navbar .nav.amarelo li .dropdown-menu a:hover,
+nav.navbar .nav.amarelo li .dropdown-menu a:focus
 {
-    display: inline-block;
+    background: #ba9c17;
+}
+
+nav.navbar .amarelo .dropdown-menu
+{
+    background-color: #e8c31d;
+}
+
+nav.navbar .nav.azul li .dropdown-menu a:hover,
+nav.navbar .nav.azul li .dropdown-menu a:focus
+{
+    background: #00799e;
+}
+
+nav.navbar .azul .dropdown-menu
+{
+    background-color: #0097c6;
+}
+
+nav.navbar .nav.vermelho li .dropdown-menu a:hover,
+nav.navbar .nav.vermelho li .dropdown-menu a:focus
+{
+    background: #a41319;
+}
+
+nav.navbar .vermelho .dropdown-menu
+{
+    background-color: #cd181f;
 }
 
 nav.navbar .navbar-brand h1
@@ -396,6 +448,42 @@ nav.navbar .nav.verde a:hover,
 nav.navbar .nav.verde a:focus
 {
     background-color: #3fa98e;
+    color: white;
+}
+
+nav.navbar .nav.amarelo a
+{
+    color: #e8c31d;
+}
+
+nav.navbar .nav.amarelo a:hover,
+nav.navbar .nav.amarelo a:focus
+{
+    background-color: #e8c31d;
+    color: white;
+}
+
+nav.navbar .nav.azul a
+{
+    color: #0097c6;
+}
+
+nav.navbar .nav.azul a:hover,
+nav.navbar .nav.azul a:focus
+{
+    background-color: #0097c6;
+    color: white;
+}
+
+nav.navbar .nav.vermelho a
+{
+    color: #cd181f;
+}
+
+nav.navbar .nav.vermelho a:hover,
+nav.navbar .nav.vermelho a:focus
+{
+    background-color: #cd181f;
     color: white;
 }
 
