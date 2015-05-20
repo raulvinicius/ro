@@ -45,6 +45,7 @@ $(document).ready(function() {
 	$('.segredo').remove();
 		
 
+
 	$( '#telefone' ).mask('(00) 0000 0000', {placeholder: "(__) ____ ____"});
 
 
