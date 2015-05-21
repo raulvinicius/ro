@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 
-	$('.aton-form').submit(function(){return false}); 
+	$('#contato form').submit(function(){return false}); 
 	$('section#contato form input[type="submit"]').bind('click', 
 		function()
 		{
@@ -37,14 +37,11 @@ $(document).ready(function() {
 				submitHandler: function(form)
 				{
 
-					$(form).find('#success').hide();
-					$(form).find('#error').hide();
-					$(form).find('.form-text').hide();
-					$(form).find('fieldset').hide();
-					$(form).find('.form-text').hide();
-					$(form).find('input[type=submit]').hide();
-
-					$(form).find('#process').show();
+					$(form).find('#success').addClass( 'hidden' );
+					$(form).find('#error').addClass( 'hidden' );
+					$(form).find('input[type=submit]')
+						.attr( 'value', 'Enviando...' )
+						.attr( 'disabled', 'disabled' );
 
 					$(form).ajaxSubmit({
 						type: 'post',
@@ -54,6 +51,9 @@ $(document).ready(function() {
 				}, 
 				rules: {
 					nm: {
+						required: true
+					},
+					ssnt: {
 						required: true
 					},
 					ml: {
@@ -66,11 +66,14 @@ $(document).ready(function() {
 				},
 				messages: {
 					nm: {
-						required: 'Campo obrigatório'
+						required: 'Informe seu nome'
+					},
+					ssnt: {
+						required: 'Diga-nos o que deseja'
 					},
 					ml: {
 						email: 'E-mail inválido',
-						required: 'Campo obrigatório'
+						required: 'Qual é o seu e-mail'
 					},
 					msgm: {
 						required: 'Deixe sua mensagem'
@@ -83,7 +86,7 @@ $(document).ready(function() {
 
 	$('.alert button').bind('click', function()
 	{
-		$(this).closest('.alert').hide();
+		$(this).closest('.alert').addClass( 'hidden' );
 	})
 
 
@@ -152,26 +155,26 @@ function urlToFunction ()
 }
 
 var beforeForm = '';
-
+	
 function contatoOk (data)
 {
-	console.log($(this));
 	console.log(data);
 
-	$('#contato #process').hide();
-	$('#contato form fieldset').show();
-	$('#contato form .form-text').show();
-	$('#contato form input[type=submit]').show();
+	$( '#contato form input[type=submit]')
+		.attr( 'value', 'Enviar' )
+		.removeAttr( 'disabled' );
 
 
 	if( data == 'sucesso')
 	{
-		$('#contato form #success').show();
+		console.log('foi um sucesso!')
+		$('#contato form #form-notes #success').removeClass( 'hidden' );
 		$('#contato form')[0].reset();
 	}
 	else
 	{
-		$('#contato form #error').show();
+		console.log('deu merda!')
+		$('#contato form #form-notes #error').removeClass( 'hidden' );
 	}
 
 }

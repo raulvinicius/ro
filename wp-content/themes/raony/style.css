@@ -189,6 +189,9 @@ section.page
 }
 
 
+.verde input.cor-mestre,
+.verde select.cor-mestre,
+.verde textarea.cor-mestre,
 .verde h2.cor-mestre,
 .verde h3.cor-mestre,
 .verde h4.cor-mestre,
@@ -205,12 +208,16 @@ section.page
     color: #278772;
 }
 
+.verde label.error,
 .verde div.cor-mestre,
+.verde input[type="submit"].cor-mestre,
 .verde button.cor-mestre
 {
     background: #31a98e;
 }
 
+.verde input[type="submit"].cor-mestre:hover,
+.verde input[type="submit"].cor-mestre:focus,
 .verde button.cor-mestre:hover,
 .verde button.cor-mestre:focus
 {
@@ -227,6 +234,9 @@ section.page
 
 
 
+.amarelo input.cor-mestre,
+.amarelo select.cor-mestre,
+.amarelo textarea.cor-mestre,
 .amarelo h2.cor-mestre,
 .amarelo h3.cor-mestre,
 .amarelo h4.cor-mestre,
@@ -243,12 +253,16 @@ section.page
     color: #ba9c17;
 }
 
+.amarelo label.error,
 .amarelo div.cor-mestre,
+.amarelo input[type="submit"].cor-mestre,
 .amarelo button.cor-mestre
 {
     background: #e8c31d;
 }
 
+.amarelo input[type="submit"].cor-mestre:hover,
+.amarelo input[type="submit"].cor-mestre:focus,
 .amarelo button.cor-mestre:hover,
 .amarelo button.cor-mestre:focus
 {
@@ -265,6 +279,9 @@ section.page
 
 
 
+.azul input.cor-mestre,
+.azul select.cor-mestre,
+.azul textarea.cor-mestre,
 .azul h2.cor-mestre,
 .azul h3.cor-mestre,
 .azul h4.cor-mestre,
@@ -281,12 +298,16 @@ section.page
     color: #00799e;
 }
 
+.azul label.error,
 .azul div.cor-mestre,
+.azul input[type="submit"].cor-mestre,
 .azul button.cor-mestre
 {
     background: #0097c6;
 }
 
+.azul input[type="submit"].cor-mestre:hover,
+.azul input[type="submit"].cor-mestre:focus,
 .azul button.cor-mestre:hover,
 .azul button.cor-mestre:focus
 {
@@ -303,6 +324,9 @@ section.page
 
 
 
+.vermelho input.cor-mestre,
+.vermelho select.cor-mestre,
+.vermelho textarea.cor-mestre,
 .vermelho h2.cor-mestre,
 .vermelho h3.cor-mestre,
 .vermelho h4.cor-mestre,
@@ -319,12 +343,16 @@ section.page
     color: #a41319;
 }
 
+.vermelho label.error,
 .vermelho div.cor-mestre,
+.vermelho input[type="submit"].cor-mestre,
 .vermelho button.cor-mestre
 {
     background: #cd181f;
 }
 
+.vermelho input[type="submit"].cor-mestre:hover,
+.vermelho input[type="submit"].cor-mestre:focus,
 .vermelho button.cor-mestre:hover,
 .vermelho button.cor-mestre:focus
 {
@@ -589,6 +617,17 @@ nav.navbar .dropdown-menu > li
     background-color: #0097c6;
 }
 
+.vermelho nav.navbar .nav li .dropdown-menu a:hover,
+.vermelho nav.navbar .nav li .dropdown-menu a:focus
+{
+    background: #a41319;
+}
+
+.vermelho nav.navbar  .dropdown-menu
+{
+    background-color: #cd181f;
+}
+
 nav.navbar .nav.vermelho li .dropdown-menu a:hover,
 nav.navbar .nav.vermelho li .dropdown-menu a:focus
 {
@@ -649,6 +688,18 @@ nav.navbar a
 .azul nav.navbar .nav a:focus
 {
     background-color: #0097c6;
+    color: white;
+}
+
+.vermelho nav.navbar .nav a
+{
+    color: #cd181f;
+}
+
+.vermelho nav.navbar .nav a:hover,
+.vermelho nav.navbar .nav a:focus
+{
+    background-color: #a41319;
     color: white;
 }
 
@@ -788,6 +839,7 @@ nav.menu-bottom .open .dropdown-menu
     background: #333333;
     font-size: 26px;
     font-family: "champagne", Arial, sans-serif;
+    padding-top: 30px;
 }
 
 #contato form #group-nome
@@ -803,7 +855,7 @@ nav.menu-bottom .open .dropdown-menu
 
 #contato form #group-nome label
 {
-    margin-top: 43px;
+    /*margin-top: 43px;*/
 }
 
 #contato form label span
@@ -813,11 +865,9 @@ nav.menu-bottom .open .dropdown-menu
 
 #contato form input,
 #contato form select,
-#contato form textarea,
-#contato form button
+#contato form textarea
 {
     width: 100%;
-    color: #333333;
     padding: 5px 15px;
     border: 0;
 }
@@ -854,36 +904,61 @@ nav.menu-bottom .open .dropdown-menu
     resize: none;
 }
 
-#contato form button
+#contato form input[type="submit"]
 {
     color: white;
     font-size: 30px;
     font-family: "champagnebold", Arial, sans-serif;
     text-transform: uppercase;
-    background: #e8c31d;
+    /*background: #e8c31d;*/
     padding-top: 2px;
     border: none;
-    margin: 40px 0 50px 0;
+    margin: 30px 0 60px 0;
 }
 
-.verde #contato form button
+#contato form #form-notes
 {
-    background: #31a98e;
+    bottom: 0;
+    position: absolute;
+    left: 15px;
+    right: 15px;
 }
 
-.amarelo #contato form button
+#contato form #form-notes .alert
 {
-    background: #e8c31d;
+    margin-bottom: 0px;
+    height: 49px;
+    border: none;
+    border-radius: 0px;
+    padding: 5px 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -khtml-box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
-.azul #contato form button
+#contato form #form-notes .alert button
 {
-    background: #0097c6;
+    color: white;
+    opacity: 1;
+    height: 100%;
 }
 
-.vermelho #contato form button
+#contato form label.error
 {
-    background: #cd181f;
+    padding: 5px 10px;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    left: 15px;
 }
 
 #contato #humano
@@ -913,8 +988,6 @@ nav.menu-bottom .open .dropdown-menu
 {
     text-align: center;
     background: url(img/raonyoliveira-bg-depoimentos.jpg) no-repeat white;
-    margin-top: -57px;
-
 }
 
 #depoimentos h2
@@ -1140,7 +1213,7 @@ nav.menu-bottom .open .dropdown-menu
 {
     /*width: 25%;*/
     font-size: 20px;
-    color: #103637;
+    color: #666;
     font-family: "firasans", Verdana, sans-serif;
     display: inline-block;
     margin-top: 25px;
@@ -1150,11 +1223,11 @@ nav.menu-bottom .open .dropdown-menu
 
 #home #servicos h3
 {
-    font-size: 34px;
+    font-size: 24px;
     color: white;
     font-family: "firasansmedium", Arial, sans-serif;
-    font-style: italic;
-    padding-top: 39px;
+    /*font-style: italic;*/
+    padding-top: 59px;
     padding-bottom: 32px;
     background: url(img/raonyoliveira-bg-preto-07.png);
     margin: 0 -15px;
@@ -1170,8 +1243,8 @@ nav.menu-bottom .open .dropdown-menu
 #home #servicos #polimento p,
 #home #servicos #estetica p
 {
-    height: 220px;
-    font-size: 72px;
+    height: 130px;
+    font-size: 62px;
     color: white;
     font-family: "champagne", Arial, sans-serif;
     line-height: 73px;
@@ -1200,9 +1273,31 @@ nav.menu-bottom .open .dropdown-menu
     border-radius: 25px;
 }
 
+#home #servicos .veja-mais i
+{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter: alpha(opacity=0);
+    margin-left: -20px;
+    font-size: 17px;
+}
+
 #home #servicos .veja-mais:hover
 {
     text-decoration: none;
+}
+
+#home #servicos .veja-mais:hover i
+{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    filter: alpha(opacity=100);
+    margin-left: 10px;
+    font-size: 17px;
 }
 
 #home #servicos #martelinho
@@ -1242,16 +1337,15 @@ nav.menu-bottom .open .dropdown-menu
 
 
 
-/*----------------------MARTELINHO----------------------*/
+/*----------------------MARTELINHO / POLIMENTO / ESTETICA----------------------*/
 
-#martelinho #apresentacao
+.servicos #apresentacao
 {
     height: 100%;
 }
 
-#martelinho #apresentacao #bg-logo
+.servicos #apresentacao #bg-logo
 {
-    background: url('img/raonyoliveira-bg-header-martelinho.jpg') center;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -1259,18 +1353,28 @@ nav.menu-bottom .open .dropdown-menu
     top: 0;
 }
 
-#martelinho #beneficios
+#martelinho #apresentacao #bg-logo
 {
-    background: url('img/raonyoliveira-bg-header-martelinho.jpg');
+    background: url('img/raonyoliveira-bg-header-martelinho.jpg') center;
 }
 
-#martelinho #beneficios #intro
+#polimento #apresentacao #bg-logo
+{
+    background: url('img/raonyoliveira-bg-header-polimento.jpg') center;
+}
+
+#estetica #apresentacao #bg-logo
+{
+    background: url('img/raonyoliveira-bg-header-estetica.jpg') center;
+}
+
+.servicos #beneficios #intro
 {
     color: white;
     text-align: center;
 }
 
-#martelinho #beneficios #intro h2
+.servicos #beneficios #intro h2
 {
     font-family: 'champagne', Arial, sans-serif;
     font-size: 80px;
@@ -1279,20 +1383,20 @@ nav.menu-bottom .open .dropdown-menu
     margin-top: 90px;
 }
 
-#martelinho #beneficios #intro p
+.servicos #beneficios #intro p
 {
     font-family: 'firasans', Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 90px;
 }
 
-#martelinho #beneficios #lista
+.servicos #beneficios #lista
 {
     background: url(img/raonyoliveira-bg-beneficios.jpg) top left no-repeat white;
     text-align: center;
 }
 
-#martelinho #beneficios #lista h3
+.servicos #beneficios #lista h3
 {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -1300,33 +1404,33 @@ nav.menu-bottom .open .dropdown-menu
     font-size: 70px;
 }
 
-#martelinho #beneficios #lista ul
+.servicos #beneficios #lista ul
 {
     padding: 0;
     padding-bottom: 160px;
 }
 
-#martelinho #beneficios #lista ul li
+.servicos #beneficios #lista ul li
 {
     display: inline-block;
     width: 400px;
     margin: 40px;
 }
 
-#martelinho #beneficios #lista ul li h2
+.servicos #beneficios #lista ul li h2
 {
     font-family: 'champagnebold', Arial, sans-serif;
     font-size: 42px;
 }
 
-#martelinho #beneficios #lista ul li p
+.servicos #beneficios #lista ul li p
 {
     font-family: 'firasans', Arial, sans-serif;
     font-size: 20px;
     color: #666;
 }
 
-/*----------------------MARTELINHO----------------------*/
+/*----------------------MARTELINHO / POLIMENTO / ESTETICA----------------------*/
 
 
 
