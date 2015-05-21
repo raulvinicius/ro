@@ -463,7 +463,7 @@ body
 
 body
 {
-	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
+    font-family: "champagne", Arial, sans-serif;
 }
 
 
@@ -1657,5 +1657,102 @@ nav.menu-bottom .open .dropdown-menu
 
 #galeria
 {
-    background: url(img/);
+    background: url(img/raonyoliveira-bg-beneficios.jpg) no-repeat;
+    padding-top: 1px;
+    color: white;
 }
+
+#galeria #apresentacao
+{
+    color: #091f1f;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'firasans', Arial, sans-serif;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+
+#galeria article
+{
+    margin-top: 15px;
+}
+
+#galeria .galeria-left
+{
+    text-align: right;
+}
+
+#galeria #title
+{
+    height: 422px;
+    padding: 0 30px;
+}
+
+#galeria #galeria-martelinho #title
+{
+    background: #e8c31d;
+}
+
+#galeria #galeria-polimento #title
+{
+    background: #0096c5;
+}
+
+#galeria #galeria-estetica #title
+{
+    background: #cd171e;
+}
+
+#galeria #title h2
+{
+    font-size: 24px;
+    font-family: 'firasansmedium', Arial, sans-serif;
+    font-style: italic;
+    margin-top: 180px;
+    margin-bottom: 18px;
+}
+
+#galeria #title .separador-title
+{   
+    height: 1px;
+    display: block;
+    border-left: 50px solid white;
+}
+
+#galeria .galeria-left #title .separador-title
+{
+    border: none;
+    border-right: 50px solid white;
+}
+
+#galeria #title h3
+{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#galeria .img-antes,
+#galeria .img-depois
+{
+    height: 422px;
+    overflow: hidden;
+    padding: 0;
+}
+
+#galeria .img-depois
+{
+    border-left: 1px solid white;
+}
+
+#galeria #galeria-estetica
+{
+    margin-bottom: 73px;
+}
+
+#galeria #rodape
+{
+    height: 140px;
+    background: #333333;
+}
+
+/*----------------------GALERIA----------------------*/
