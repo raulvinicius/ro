@@ -2,7 +2,7 @@
 
 
 
-	<section id="martelinho" class="servicos page">
+	<section id="polimento" class="servicos page">
 
 
 		<section id="apresentacao">
@@ -24,11 +24,11 @@
 				<div id="intro" class="cor-mestre row">
 
 					<div class="col-sm-8 col-sm-offset-2">
-						<h2>Restauração artesanal, lataria original.</span></h2>
+						<h2>Pintura tão viva, que quase respira.</span></h2>
 					</div>
 
 					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8">
-						<p>A técnica do Martelinho de Ouro permite que você mantenha a lataria original do seu carro, pois não há substituição da peça ou preenchimentos com massa, se trata basicamente de dedicação, criatividade e perfeccionismo.</p>
+						<p>Aplicamos os métodos ideais de espelhamento para cada canto da pintura. Não importa quanto tempo de estrada seu carrão tenha, trazemos aquele charme de volta para a superfície.</p>
 					</div>
 
 				</div>

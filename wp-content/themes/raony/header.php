@@ -20,7 +20,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title><?php echo ( $post->post_name != '' ) ? get_the_title() . " | " : ""; ?>Aton Plaza Hotel</title>
+        <title><?php echo ( $post->post_name != '' ) ? get_the_title() . " | " : ""; ?>Raony Oliveira - Car Detail</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <!--[if IE]><link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/favicon.ico"><![endif]-->
