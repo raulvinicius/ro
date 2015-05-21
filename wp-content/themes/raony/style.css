@@ -216,12 +216,13 @@ section.page
     background: #31a98e;
 }
 
+.verde section.cor-mestre,
 .verde input[type="submit"].cor-mestre:hover,
 .verde input[type="submit"].cor-mestre:focus,
 .verde button.cor-mestre:hover,
 .verde button.cor-mestre:focus
 {
-    color: #278772;
+    background: #278772;
 }
 
 .verde nav.navbar .navbar-brand h1
@@ -261,12 +262,13 @@ section.page
     background: #e8c31d;
 }
 
+.amarelo section.cor-mestre,
 .amarelo input[type="submit"].cor-mestre:hover,
 .amarelo input[type="submit"].cor-mestre:focus,
 .amarelo button.cor-mestre:hover,
 .amarelo button.cor-mestre:focus
 {
-    color: #ba9c17;
+    background: #ba9c17;
 }
 
 .amarelo nav.navbar .navbar-brand h1
@@ -306,12 +308,13 @@ section.page
     background: #0097c6;
 }
 
+.azul section.cor-mestre,
 .azul input[type="submit"].cor-mestre:hover,
 .azul input[type="submit"].cor-mestre:focus,
 .azul button.cor-mestre:hover,
 .azul button.cor-mestre:focus
 {
-    color: #00799e;
+    background: #00799e;
 }
 
 .azul nav.navbar .navbar-brand h1
@@ -351,6 +354,7 @@ section.page
     background: #cd181f;
 }
 
+.vermelho section.cor-mestre,
 .vermelho input[type="submit"].cor-mestre:hover,
 .vermelho input[type="submit"].cor-mestre:focus,
 .vermelho button.cor-mestre:hover,
@@ -806,22 +810,28 @@ nav.menu-bottom .open .dropdown-menu
 
 .verde #contato
 {
-    background: url(img/raonyoliveira-bg-contato.jpg) center top;
+    background: url(img/raonyoliveira-bg-contato.jpg) center 100px no-repeat;
 }
 
 .amarelo #contato
 {
-    background: url(img/raonyoliveira-bg-contato-martelinho.jpg) center top;
+    background: url(img/raonyoliveira-bg-contato-martelinho.jpg) center 100px no-repeat;
 }
 
 .azul #contato
 {
-    background: url(img/raonyoliveira-bg-contato-polimento.jpg) center top;
+    background: url(img/raonyoliveira-bg-contato-polimento.jpg) center 100px no-repeat;
 }
 
 .vermelho #contato
 {
-    background: url(img/raonyoliveira-bg-contato-estetica.jpg) center top;
+    background: url(img/raonyoliveira-bg-contato-estetica.jpg) center 100px no-repeat;
+}
+
+#contato
+{
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 #contato h2
@@ -840,6 +850,18 @@ nav.menu-bottom .open .dropdown-menu
     font-size: 26px;
     font-family: "champagne", Arial, sans-serif;
     padding-top: 30px;
+}
+
+#contato .hided form
+{
+    position: relative;
+    top: 500px;
+}
+
+#contato .appeared form
+{
+    position: relative;
+    top: 0;
 }
 
 #contato form #group-nome
@@ -948,6 +970,10 @@ nav.menu-bottom .open .dropdown-menu
 {
     color: white;
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
     height: 100%;
 }
 
@@ -986,6 +1012,8 @@ nav.menu-bottom .open .dropdown-menu
 
 #depoimentos
 {
+    z-index: 10;
+    position: relative;
     text-align: center;
     background: url(img/raonyoliveira-bg-depoimentos.jpg) no-repeat white;
 }
@@ -993,15 +1021,63 @@ nav.menu-bottom .open .dropdown-menu
 #depoimentos h2
 {
     margin-top: -40px;
-    color: #333333;
+    /*color: #333333;*/
     font-size: 68px;
     font-family: "champagne", Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#depoimentos h2.hided
+{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+}
+
+#depoimentos h2.appeared
+{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
 }
 
 #depoimentos h2 i
 {
     display: block;
-    margin-bottom: 20px;
+}
+
+#depoimentos h2.hided i
+{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    transform: rotate(-25deg) scale(0.8, 0.8);
+    -o-transform: rotate(-25deg) scale(0.8, 0.8); 
+    -ms-transform: rotate(-25deg) scale(0.8, 0.8); 
+    -moz-transform: rotate(-25deg) scale(0.8, 0.8); 
+    -khtml-transform: rotate(-25deg) scale(0.8, 0.8); 
+    -webkit-transform: rotate(-25deg) scale(0.8, 0.8); 
+}
+
+#depoimentos h2.appeared i
+{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    transform: rotate(0) scale(1, 1);
+    -o-transform: rotate(0) scale(1, 1); 
+    -ms-transform: rotate(0) scale(1, 1); 
+    -moz-transform: rotate(0) scale(1, 1); 
+    -khtml-transform: rotate(0) scale(1, 1); 
+    -webkit-transform: rotate(0) scale(1, 1); 
 }
 
 #depoimentos #seta-left
@@ -1081,7 +1157,9 @@ nav.menu-bottom .open .dropdown-menu
 
 #mini-galeria
 {
-    background: url(img/raonyoliveira-bg-mini-galeria.jpg) top left #091f1f;
+    background-image: url(img/raonyoliveira-bg-amassado.png);
+    background-position: top left;
+    background-repeat: repeat-y;
     padding-bottom: 60px;
 }
 
@@ -1113,6 +1191,7 @@ nav.menu-bottom .open .dropdown-menu
 #mini-galeria figure #depois
 {
     overflow: hidden;
+    height: 700px;
 }
 
 #mini-galeria figure #antes span,
@@ -1137,6 +1216,44 @@ nav.menu-bottom .open .dropdown-menu
 #mini-galeria figure #depois img
 {
     border-left: 1px solid white;
+}
+
+#mini-galeria figure .carousel .carousel-control:hover,
+#mini-galeria figure .carousel .carousel-control
+{
+    background: none;
+    opacity: 1;
+}
+
+#mini-galeria figure .carousel .carousel-control:hover .icon-prev,
+#mini-galeria figure .carousel .carousel-control:hover .icon-next
+{
+    width: 66px;
+}
+
+#mini-galeria figure .carousel .carousel-control .glyphicon
+{
+    width: 56px;
+    height: 65px;
+    text-indent: -9999px;
+}
+
+#mini-galeria figure .carousel .carousel-control .icon-prev
+{
+    background: url(img/raonyoliveira-seta-esq-galeria.png) right center no-repeat;
+    left: 15px;
+}
+
+#mini-galeria figure .carousel .carousel-control .icon-next
+{
+    background: url(img/raonyoliveira-seta-dir-galeria.png) left center no-repeat;
+    right: 15px;
+}
+
+#mini-galeria figure .carousel .carousel-indicators
+{
+    position: relative;
+    top: 40px;
 }
 
 /*----------------------MINI-GALERIA----------------------*/
@@ -1203,6 +1320,28 @@ nav.menu-bottom .open .dropdown-menu
     margin-top: 145px;
 }
 
+#home #servicos #intro .hided
+{
+    position: relative;
+    left: -200px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+}
+
+#home #servicos #intro .appeared
+{
+    position: relative;
+    left: 0;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+}
+
 #home #servicos h2 span
 {
     display: block;
@@ -1239,6 +1378,32 @@ nav.menu-bottom .open .dropdown-menu
     margin-bottom: 20px;
 }
 
+#home #servicos #martelinho.hided,
+#home #servicos #polimento.hided,
+#home #servicos #estetica.hided
+{
+    position: relative;
+    top: 300px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+}
+
+#home #servicos #martelinho.appeared,
+#home #servicos #polimento.appeared,
+#home #servicos #estetica.appeared
+{
+    position: relative;
+    top: 0;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+}
+
 #home #servicos #martelinho p,
 #home #servicos #polimento p,
 #home #servicos #estetica p
@@ -1248,7 +1413,7 @@ nav.menu-bottom .open .dropdown-menu
     color: white;
     font-family: "champagne", Arial, sans-serif;
     line-height: 73px;
-    margin-top: 35px;
+    margin-top: 75px;
     margin-bottom: 55px;
 }
 
@@ -1374,6 +1539,11 @@ nav.menu-bottom .open .dropdown-menu
     text-align: center;
 }
 
+.servicos #beneficios #intro.hided
+{
+    background: white;
+}
+
 .servicos #beneficios #intro h2
 {
     font-family: 'champagne', Arial, sans-serif;
@@ -1415,6 +1585,50 @@ nav.menu-bottom .open .dropdown-menu
     display: inline-block;
     width: 400px;
     margin: 40px;
+}
+
+.servicos #beneficios #lista ul li.hided figcaption
+{
+    opacity: 0;
+    position: relative;
+    top: 30px;
+}
+
+.servicos #beneficios #lista ul li.appeared figcaption
+{
+    opacity: 1;
+    position: relative;
+    top: 0;
+}
+
+.servicos #beneficios #lista ul li.hided img
+{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -khtml-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+}
+
+.servicos #beneficios #lista ul li.appeared img
+{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -khtml-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
 }
 
 .servicos #beneficios #lista ul li h2

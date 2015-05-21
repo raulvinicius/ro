@@ -7,8 +7,8 @@
 			</div>
 
 
-			<div class="row">
-				<form class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6" action="<?php bloginfo('url') ?>/envia-email" method="POST">
+			<div class="row hided">
+				<form class="hided ani-04-in-out col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6" action="<?php bloginfo('url') ?>/envia-email" method="POST">
 
 					<div class="row">
 						<div id="group-nome" class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">
@@ -77,6 +77,6 @@
 				</form>
 			</div>
 
-			<div><a id="humano" title="By Humano" href="#">By Humano</a></div>
+			<div><a id="humano" title="By Humano" href="http://humanostud.io" target="_blank">By Humano</a></div>
 
 		</section>

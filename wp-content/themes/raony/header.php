@@ -53,9 +53,12 @@
                 <div class="col-md-8 ani-02-in-out">
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav verde">
+                        <!-- 
                         <li>
                             <a class="home ani-02-in-out" href="<?php completaUrl(); ?>/">Home</a>
-                        </li><li role="presentation" class="dropdown">
+                        </li> 
+                        -->
+                        <li role="presentation" class="dropdown">
                             <a class="servicos ani-02-in-out dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
                                 Serviços
                             </a>
@@ -70,12 +73,12 @@
                                 </li>
                                 
                             </ul>
-                        </li><li>
+                        </li><!-- <li>
                             <a class="galeria ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/galeria">Galeria</a>
-                        </li><li>
+                        </li> --><!-- <li>
                             <a class="depoimentos ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/depoimentos">Depoimentos</a>
-                        </li><li>
-                            <a class="contato ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/contato">Contato</a>
+                        </li> --><li>
+                            <a class="contato ani-02-in-out" href="#contato">Contato</a>
                         </li>
                   </ul>
                 </div>

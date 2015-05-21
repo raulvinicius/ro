@@ -237,7 +237,7 @@ function showInAnimation ()
 
 	$('.hided').each(function()
 	{
-		if( $( window ).scrollTop() + ( $( window ).height() * 0.8 ) > $(this).offset().top - 300 )
+		if( $( window ).scrollTop() + ( $( window ).height() * 0.5 ) > $(this).offset().top - 300 )
 		{
 			$(this).addClass('appeared').removeClass('hided');
 		}

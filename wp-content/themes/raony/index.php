@@ -25,19 +25,19 @@
 				<div id="intro" class="row">
 
 					<div class="col-sm-12">
-						<h2>Lembra, aquela sensação de carro novo?
-						<span>Nós também adoramos!</span></h2>
+						<h2 class="hided ani-04-in-out">Lembra, aquela sensação de carro novo?
+						<span class="hided ani-04-in-out">Nós também adoramos!</span></h2>
 					</div>
 
 					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4">
-						<p>E pensando nisso, oferecemos os melhores serviços para trazer de volta, pra você, aquela sensação, ou se for o caso, não deixá-la ir embora.</p>
+						<p class="hided ani-04-in-out">E pensando nisso, oferecemos os melhores serviços para trazer de volta, pra você, aquela sensação, ou se for o caso, não deixá-la ir embora.</p>
 					</div>
 
 				</div>
 
 				<div class="row">
 
-					<div id="martelinho" class="col-sm-4">
+					<div id="martelinho" class="col-sm-4 hided">
 						<h3>
 							<i><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-martelinho.png"></i>
 							Martelinho de Ouro
@@ -54,7 +54,7 @@
 
 					</div>
 
-					<div id="polimento" class="col-sm-4">
+					<div id="polimento" class="col-sm-4 hided ani-04-in-out">
 						<h3>
 							<i><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-polimento.png"></i>
 							Polimento
@@ -71,7 +71,7 @@
 
 					</div>
 
-					<div id="estetica" class="col-sm-4">
+					<div id="estetica" class="col-sm-4 hided ani-06-in-out">
 						<h3>
 							<i><img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-estetica.png"></i>
 							Estética automotiva
@@ -92,7 +92,7 @@
 			</div>
 		</section>
 
-		<?php include 'depoimentos.php'; ?>
+		<!-- <?php include 'depoimentos.php'; ?> -->
 
 		<?php include 'contato.php'; ?>
 

@@ -3,6 +3,7 @@
 	$nome = $_POST['nm'];
 	$nick = explode( " ", $nome, 2 );
 	$nick = $nick[0];
+	$assunto = $_POST['ssnt'];
 	$email = $_POST['ml'];
 	$telefone = $_POST['tlfn'];
 	$mensagem = $_POST['msgm'];
@@ -46,8 +47,8 @@
 	<div style='width: 100%; padding: 50px 0;'>
 		<table style='background: white; width: 460px; border-radius: 3px 0 3px; margin: 0 auto; border: 20px solid #31a98e; padding: 10px;'>
 			<tr style=''>
-				<td style='text-align: center; font-family:Arial, sans; height: 110px;'>
-					<img src='$tUrl/img/aton-logo.png' style='margin: 20px 0; padding: 0 0 20px; border-bottom: 1px solid #ddd'>
+				<td style='font-family:Arial, sans; height: 110px;'>
+					<img src='$tUrl/img/raonyoliveira-logo-cd.png' style='margin: 20px 0; padding: 0 0 20px; border-bottom: 1px solid #ddd'>
 				</td>
 			</tr>
 			<tr>

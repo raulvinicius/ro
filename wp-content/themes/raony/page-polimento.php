@@ -21,7 +21,7 @@
 		<section id="beneficios">
 			<div class="container-fluid">
 
-				<div id="intro" class="cor-mestre row">
+				<div id="intro" class="cor-mestre row hided ani-04-in-out">
 
 					<div class="col-sm-8 col-sm-offset-2">
 						<h2>Pintura tão viva, que quase respira.</span></h2>
@@ -38,55 +38,56 @@
 					<h3 class="col-md-12 cor-mestre">Porque nos escolher:</h3>
 
 					<ul class="col-md-10 col-md-offset-1">
-						<li>
+						<li class="hided">
 							<figure>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-inloco.png">
-								<figcaption>
+								<img class="ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-inloco.png">
+								<figcaption class="ani-06-in-out">
 									<h2 class="cor-mestre">Atendimento In loco</h2>
 									<p>Vamos até você, prezamos a comodidade dos nossos clientes.</p>
 								</figcaption>
 							</figure>
 						</li>
 							
-						<li>
+						<li class="hided">
 							<figure>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-7x24.png">
-								<figcaption>
+								<img class="ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-7x24.png">
+								<figcaption class="ani-06-in-out">
 									<h2 class="cor-mestre">De domingo a domingo</h2>
 									<p>Sete dias por semana, escolha o melhor dia pra você.</p>
 								</figcaption>
 							</figure>
 						</li>
 
-						<li>
+						<li class="hided">
 							<figure>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-sustentabilidade.png">
-								<figcaption>
+								<img class="ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-sustentabilidade.png">
+								<figcaption class="ani-06-in-out">
 									<h2 class="cor-mestre">Sustentabilidade</h2>
 									<p>Nossa técnica não utiliza água e não gera resíduos, ótimo para o meio ambiente.</p>
 								</figcaption>
 							</figure>
 						</li>
 
-						<li>
+						<li class="hided">
 							<figure>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-original.png">
-								<figcaption>
+								<img class="ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-original.png">
+								<figcaption class="ani-06-in-out">
 									<h2 class="cor-mestre">Seu carro original</h2>
 									<p>Trabalhamos artesanalmente na própria lataria do veículo. É uma revitalização.</p>
 								</figcaption>
 							</figure>
 						</li>
 
-						<li>
+						<li class="hided">
 							<figure>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-rapido.png">
-								<figcaption>
+								<img class="ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-rapido.png">
+								<figcaption class="ani-06-in-out">
 									<h2 class="cor-mestre">Mais rápido e barato</h2>
 									<p>A duração e o custo do serviço são muito menores se coparados à lanternagem.</p>
 								</figcaption>
 							</figure>
 						</li>
+
 
 					</ul>
 
@@ -95,45 +96,25 @@
 			</div>
 		</section>
 
-		<section id="mini-galeria">
+		<section id="mini-galeria" class="cor-mestre">
 
 			<div class="container-fluid">
 
 				<div class="row">
 
 					<h2 class="col-sm-12">Galeria</h2>
-					<p class="col-md-4 col-sm-offset-4">De uma olhada em alguns trabalhos concluídos e entenda melhor como nosso processo artesanal faz toda a diferença.</p>
+					<p class="col-md-4 col-sm-offset-4">Aqui estão alguns resultados dos nossos serviços de polimento. Adimita, há uma vida nova nesses carros.</p>
 
 				</div>
 
-				<div class="row">
-
-					<figure>
-
-						<div id="antes" class="col-sm-6">
-							<div class="row">
-								<span>Antes</span>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-galeria-antes.jpg">
-							</div>
-						</div>
-						<div id="depois" class="col-sm-6">
-							<div class="row">
-								<span>Depois</span>
-								<img src="<?php bloginfo('template_url') ?>/img/raonyoliveira-galeria-depois.jpg">
-							</div>
-						</div>
-
-						<div class="clearfix"></div>
-
-					</figure>
-
-				</div>
+				<?php include 'mini-galeria.php'; ?>
 
 			</div>
 
 		</section>
 
-		<?php include 'depoimentos.php'; ?>
+
+		<!-- <?php include 'depoimentos.php'; ?> -->
 
 		<?php include 'contato.php'; ?>
 

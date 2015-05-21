@@ -3,12 +3,12 @@
 
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
-						<h2>
-							<i>
-								<img class="verde show-cor-mestre" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas.png">
-								<img class="amarelo show-cor-mestre" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas-martelinho.png">
-								<img class="azul show-cor-mestre" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas-polimento.png">
-								<img class="vermelho show-cor-mestre" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas-estetica.png">
+						<h2 class="hided cor-mestre">
+							<i class="ani-04-in-out ani-delay-064">
+								<img class="verde show-cor-mestre ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas.png">
+								<img class="amarelo show-cor-mestre ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas-martelinho.png">
+								<img class="azul show-cor-mestre ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas-polimento.png">
+								<img class="vermelho show-cor-mestre ani-04-in-out" src="<?php bloginfo('template_url') ?>/img/raonyoliveira-icon-aspas-estetica.png">
 							</i>
 							Clientes felizes
 						</h2>
