@@ -42,16 +42,13 @@ add_action( 'init', 'codex_custom_init' );
 
 
 // CUSTOM IMAGE SIZE
-/*
+
 if ( function_exists( 'add_image_size' ) ) 
 {
-	add_image_size( 'foto-destaque', 360, 300, true );
-	add_image_size( 'zoom-destaque', 240, 300, true );
-	add_image_size( 'tb-lista', 220, 215, true );
-	add_image_size( 'tb-foto', 102, 100, true );
-	add_image_size( 'foto', 470, 460, true );
+	add_image_size( 'galeria-lg', 955, 570, true );
+	add_image_size( 'galeria', 720, 430, true );
+	add_image_size( 'galeria-md', 360, 215, true );
 }
-*/
 
 
 function get_post_by_type($type, $order = 'DESC', $per_page = -1, $paged = NULL)
@@ -78,7 +75,7 @@ function change_default_title( $title ){
     }
 
     // ESCONTE O TITLE FIELD DE POST EDITS DO TIPO PÁGINA
-	/*
+
     if ( 'page' == $screen->post_type )
     {
     ?>
@@ -96,7 +93,6 @@ function change_default_title( $title ){
 	    </style>
     <?php
     }
-	*/
 
     return $title;
 }

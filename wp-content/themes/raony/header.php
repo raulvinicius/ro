@@ -41,7 +41,7 @@
           <div class="container-fluid">
             <div class="row">
                 <div class="navbar-header col-md-2">
-                    <button type="button" class="ani-02-in-out navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="ani-02-in-out navbar-toggle collapsed cor-mestre" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -73,12 +73,12 @@
                                 </li>
                                 
                             </ul>
-                        </li><!-- <li>
+                        </li><li>
                             <a class="galeria ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/galeria">Galeria</a>
-                        </li> --><!-- <li>
+                        </li><!-- <li>
                             <a class="depoimentos ani-02-in-out" href="<?php completaUrl( $frontendUrl ); ?>/depoimentos">Depoimentos</a>
                         </li> --><li>
-                            <a class="contato ani-02-in-out" href="#contato">Contato</a>
+                            <a class="contato ani-02-in-out" href="#contato" data-toggle="collapse" data-target="#navbar">Contato</a>
                         </li>
                   </ul>
                 </div>

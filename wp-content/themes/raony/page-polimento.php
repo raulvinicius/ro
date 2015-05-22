@@ -96,6 +96,25 @@
 			</div>
 		</section>
 
+	  	<?php 
+
+		$servDaVez = "polimento";
+
+  	    $galeria = get_page_by_path( 'galeria' );
+  	    $galeria = get_field( 'galeria', $galeria->ID );
+  	    $miniGaleria = array();
+
+  		for ($i=0; $i < count( $galeria ); $i++) :
+
+  			if( $galeria[$i]['servico'] == $servDaVez ) :
+  				$miniGaleria[] = $galeria[$i];
+  			endif;
+
+		endfor;
+
+		if ( count( $miniGaleria ) ) :
+		?> 
+
 		<section id="mini-galeria" class="cor-mestre">
 
 			<div class="container-fluid">
@@ -112,6 +131,12 @@
 			</div>
 
 		</section>
+
+		<?php 
+
+		endif;
+
+		?>
 
 
 		<!-- <?php include 'depoimentos.php'; ?> -->
